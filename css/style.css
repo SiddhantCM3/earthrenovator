@@ -1,0 +1,99 @@
+.navbar {
+    background-color: black;
+    color: aliceblue;
+}
+
+.navbar-brand {
+    margin-left: 30px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-right: 20px;
+    margin-top: 30px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #40ff00;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.nav-link {
+    position: relative;
+    display:
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #010e06;
+    border-style: solid;
+    border-width: thin;
+    border-color: #40ff00;
+    width: 200px;
+    height: auto;
+    /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+    z-index: 1;
+}
+
+.nav-item a:hover {
+    background-color: #40ff00;
+    color: #050f01 !important;
+    font-weight: bold;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.nav-item:hover .dropdown-content {
+    display: block;
+    width: 312px;
+}
+
+.navbar-toggler-icon {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: #40ff00;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+a {
+    color: aliceblue !important;
+}
+
+body {
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.Visionpoint {
+    position: relative;
+    margin: 0 auto;
+}
+
+.Visionpoint img {
+    vertical-align: middle;
+}
+
+.Visionpoint .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
